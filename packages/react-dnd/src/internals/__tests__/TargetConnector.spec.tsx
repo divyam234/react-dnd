@@ -1,4 +1,4 @@
-import type { Backend } from 'dnd-core'
+import type { Backend } from '@bhunter179/dnd-core'
 import { TargetConnector } from '../TargetConnector.js'
 
 describe('TargetConnector', () => {

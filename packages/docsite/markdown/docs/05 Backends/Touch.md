@@ -21,7 +21,7 @@ npm install react-dnd-touch-backend
 
 ```jsx
 import { TouchBackend } from 'react-dnd-touch-backend'
-import { DndProvider } from 'react-dnd'
+import { DndProvider } from '@bhunter179/react-dnd'
 
 class YourApp {
   <DndProvider backend={TouchBackend} options={opts}>

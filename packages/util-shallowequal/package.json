@@ -1,5 +1,5 @@
 {
-  "name": "@react-dnd/shallowequal",
+  "name": "@bhunter179/shallowequal",
   "version": "4.0.2",
   "description": "Like lodash isEqualWith but for shallow equal.",
   "keywords": [
@@ -35,7 +35,7 @@
     "build": "npm-run-all -p _build_dts _build_esm _build_cjs -s _prepare_esm",
     "test": "jest --coverage",
     "check": "eslint src --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.cts,.mts --resolve-plugins-relative-to ../eslint-config",
-    "release": "yarn npm publish --tolerate-republish --access public"
+    "release": "npm publish --tolerate-republish --access public"
   },
   "devDependencies": {
     "@react-dnd/eslint-config": "workspace:^",

@@ -1,4 +1,4 @@
-import type { XYCoord } from 'dnd-core'
+import type { XYCoord } from '@bhunter179/dnd-core'
 
 import { isFirefox, isSafari } from './BrowserDetector.js'
 import { MonotonicInterpolant } from './MonotonicInterpolant.js'

@@ -1,6 +1,6 @@
 {
-  "name": "react-dnd-html5-backend",
-  "version": "16.0.1",
+  "name": "@bhunter179/react-dnd-html5-backend",
+  "version": "16.0.3",
   "description": "HTML5 backend for React DnD",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.mjs",
@@ -26,10 +26,10 @@
     "build": "npm-run-all -p _build_dts _build_esm _build_cjs -s _prepare_esm",
     "test": "jest --coverage",
     "check": "eslint src --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.cts,.mts --resolve-plugins-relative-to ../eslint-config",
-    "release": "yarn npm publish --tolerate-republish --access public"
+    "release": "npm publish --tolerate-republish --access public"
   },
   "dependencies": {
-    "dnd-core": "workspace:^"
+    "@bhunter179/dnd-core": "^16.0.3"
   },
   "devDependencies": {
     "@react-dnd/eslint-config": "workspace:^",

@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import type { Identifier } from 'dnd-core'
+import type { Identifier } from '@bhunter179/dnd-core'
 import type { ITestBackend } from 'react-dnd-test-backend'
 import { act } from 'react-dom/test-utils'
 

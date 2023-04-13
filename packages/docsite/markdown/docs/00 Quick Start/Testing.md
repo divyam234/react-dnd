@@ -65,7 +65,7 @@ Here are some examples to get you started:
 ```jsx
 import React from 'react'
 import { wrapInTestContext } from 'react-dnd-test-utils'
-import { DragDropContext } from 'react-dnd'
+import { DragDropContext } from '@bhunter179/react-dnd'
 import TestUtils from 'react-dom/test-utils'
 import expect from 'expect'
 import Box from './components/Box'

@@ -1,6 +1,6 @@
 import type { FC } from 'react'
 import { useEffect, useState } from 'react'
-import { useDragDropManager } from 'react-dnd'
+import { useDragDropManager } from '@bhunter179/react-dnd'
 
 export const Profiler: FC = () => {
 	const dragDropManager = useDragDropManager()

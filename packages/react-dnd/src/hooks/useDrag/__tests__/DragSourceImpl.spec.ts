@@ -1,4 +1,4 @@
-import type { DragDropMonitor } from 'dnd-core'
+import type { DragDropMonitor } from '@bhunter179/dnd-core'
 
 
 import type { Connector } from '../../../internals/index.js'

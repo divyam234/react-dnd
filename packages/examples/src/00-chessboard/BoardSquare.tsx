@@ -1,5 +1,5 @@
 import type { FC, ReactNode } from 'react'
-import { useDrop } from 'react-dnd'
+import { useDrop } from '@bhunter179/react-dnd'
 
 import type { Game } from './Game'
 import { ItemTypes } from './ItemTypes.js'

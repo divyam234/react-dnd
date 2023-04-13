@@ -1,4 +1,4 @@
-import type { XYCoord } from 'dnd-core'
+import type { XYCoord } from '@bhunter179/dnd-core'
 
 import { isTouchEvent } from './predicates.js'
 

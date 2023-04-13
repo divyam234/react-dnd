@@ -1,5 +1,5 @@
-import { invariant } from '@react-dnd/invariant'
-import type { Identifier } from 'dnd-core'
+import { invariant } from '@bhunter179/invariant'
+import type { Identifier } from '@bhunter179/dnd-core'
 import { useMemo } from 'react'
 
 import type { DropTargetHookSpec } from '../types.js'

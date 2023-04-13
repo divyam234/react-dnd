@@ -8,10 +8,10 @@
     "check": "eslint src --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.cts,.mts --resolve-plugins-relative-to ../eslint-config"
   },
   "dependencies": {
+    "@bhunter179/react-dnd": "workspace:^",
+    "@bhunter179/react-dnd-html5-backend": "workspace:^",
     "react": "^18.2.0",
-    "react-dnd": "workspace:^",
     "react-dnd-examples": "workspace:^",
-    "react-dnd-html5-backend": "workspace:^",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {

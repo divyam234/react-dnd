@@ -1,6 +1,6 @@
 import type { CSSProperties, FC } from 'react'
-import { useDrop } from 'react-dnd'
-import { NativeTypes } from 'react-dnd-html5-backend'
+import { useDrop } from '@bhunter179/react-dnd'
+import { NativeTypes } from '@bhunter179/react-dnd-html5-backend'
 
 const style: CSSProperties = {
 	border: '1px solid gray',

@@ -1,4 +1,4 @@
-import { invariant } from '@react-dnd/invariant'
+import { invariant } from '@bhunter179/invariant'
 import type {
 	DragDropManager,
 	DragDropMonitor,
@@ -6,7 +6,7 @@ import type {
 	Listener,
 	Unsubscribe,
 	XYCoord,
-} from 'dnd-core'
+} from '@bhunter179/dnd-core'
 
 import type { DropTargetMonitor } from '../types/index.js'
 

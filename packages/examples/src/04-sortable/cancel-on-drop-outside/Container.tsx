@@ -1,7 +1,7 @@
 import update from 'immutability-helper'
 import type { FC } from 'react'
 import { memo, useCallback, useState } from 'react'
-import { useDrop } from 'react-dnd'
+import { useDrop } from '@bhunter179/react-dnd'
 
 import { Card } from './Card.js'
 import { ItemTypes } from './ItemTypes.js'

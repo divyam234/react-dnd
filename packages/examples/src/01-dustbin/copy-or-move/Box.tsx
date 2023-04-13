@@ -1,6 +1,6 @@
 import type { CSSProperties, FC } from 'react'
-import type { DragSourceMonitor } from 'react-dnd'
-import { useDrag } from 'react-dnd'
+import type { DragSourceMonitor } from '@bhunter179/react-dnd'
+import { useDrag } from '@bhunter179/react-dnd'
 
 import { ItemTypes } from './ItemTypes.js'
 

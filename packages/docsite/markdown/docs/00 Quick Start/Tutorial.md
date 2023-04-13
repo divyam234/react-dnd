@@ -431,8 +431,8 @@ We need this to specify that we're going to use the [HTML5Backend](/docs/backend
 
 ```jsx
 import React from 'react'
-import { DndProvider } from 'react-dnd'
-import { HTML5Backend } from 'react-dnd-html5-backend'
+import { DndProvider } from '@bhunter179/react-dnd'
+import { HTML5Backend } from '@bhunter179/react-dnd-html5-backend'
 
 function Board() {
   /* ... */
@@ -478,7 +478,7 @@ Let's take a look at the whole `Knight` component now, including the `useDrag` c
 ```jsx
 import React from 'react'
 import { ItemTypes } from './Constants'
-import { useDrag } from 'react-dnd'
+import { useDrag } from '@bhunter179/react-dnd'
 
 function Knight() {
   const [{isDragging}, drag] = useDrag(() => ({
@@ -589,7 +589,7 @@ import React from 'react'
 import Square from './Square'
 import { canMoveKnight, moveKnight } from './Game'
 import { ItemTypes } from './Constants'
-import { useDrop } from 'react-dnd'
+import { useDrop } from '@bhunter179/react-dnd'
 
 function BoardSquare({ x, y, children }) {
   const black = (x + y) % 2 === 1
@@ -660,7 +660,7 @@ import React from 'react'
 import Square from './Square'
 import { canMoveKnight, moveKnight } from './Game'
 import { ItemTypes } from './Constants'
-import { useDrop } from 'react-dnd'
+import { useDrop } from '@bhunter179/react-dnd'
 
 function BoardSquare({ x, y, children }) {
   const black = (x + y) % 2 === 1

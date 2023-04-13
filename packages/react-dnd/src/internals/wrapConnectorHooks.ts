@@ -1,4 +1,4 @@
-import { invariant } from '@react-dnd/invariant'
+import { invariant } from '@bhunter179/invariant'
 import type { ReactElement } from 'react'
 import { cloneElement, isValidElement } from 'react'
 

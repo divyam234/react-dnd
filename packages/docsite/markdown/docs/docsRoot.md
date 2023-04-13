@@ -19,7 +19,7 @@ The second package will allow React DnD [the HTML5 drag and drop API](https://de
 // Let's make <Card text='Write the docs' /> draggable!
 
 import React from 'react'
-import { useDrag } from 'react-dnd'
+import { useDrag } from '@bhunter179/react-dnd'
 import { ItemTypes } from './Constants'
 
 /**

@@ -1,4 +1,4 @@
-import { invariant } from '@react-dnd/invariant'
+import { invariant } from '@bhunter179/invariant'
 import type {
 	Backend,
 	DragDropActions,
@@ -7,7 +7,7 @@ import type {
 	Identifier,
 	Unsubscribe,
 	XYCoord,
-} from 'dnd-core'
+} from '@bhunter179/dnd-core'
 
 import type {
 	EventName,

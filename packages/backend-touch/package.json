@@ -30,8 +30,8 @@
     "release": "yarn npm publish --tolerate-republish --access public"
   },
   "dependencies": {
-    "@react-dnd/invariant": "workspace:^",
-    "dnd-core": "workspace:^"
+    "@bhunter179/dnd-core": "workspace:^",
+    "@bhunter179/invariant": "workspace:^"
   },
   "devDependencies": {
     "@react-dnd/eslint-config": "workspace:^",

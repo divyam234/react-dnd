@@ -1,6 +1,6 @@
 import type { FC, ReactNode } from 'react'
-import { DndProvider } from 'react-dnd'
-import { HTML5Backend } from 'react-dnd-html5-backend'
+import { DndProvider } from '@bhunter179/react-dnd'
+import { HTML5Backend } from '@bhunter179/react-dnd-html5-backend'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import Frame, { FrameContextConsumer } from 'react-frame-component'

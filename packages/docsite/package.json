@@ -5,6 +5,8 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
+    "@bhunter179/react-dnd": "workspace:^",
+    "@bhunter179/react-dnd-html5-backend": "workspace:^",
     "debug": "^4.3.4",
     "gatsby": "~4.12.1",
     "gatsby-plugin-manifest": "^4.12.1",
@@ -23,9 +25,7 @@
     "prismjs": "^1.29.0",
     "query-string": "^6.14.1",
     "react": "^18.2.0",
-    "react-dnd": "workspace:^",
     "react-dnd-examples": "workspace:^",
-    "react-dnd-html5-backend": "workspace:^",
     "react-dnd-test-backend": "workspace:^",
     "react-dnd-touch-backend": "workspace:^",
     "react-dom": "^18.2.0",

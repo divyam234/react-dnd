@@ -1,5 +1,5 @@
-import type { BackendFactory, DragDropManager } from 'dnd-core'
-import { createDragDropManager } from 'dnd-core'
+import type { BackendFactory, DragDropManager } from '@bhunter179/dnd-core'
+import { createDragDropManager } from '@bhunter179/dnd-core'
 import type { FC, ReactNode } from 'react'
 import { memo, useEffect } from 'react'
 

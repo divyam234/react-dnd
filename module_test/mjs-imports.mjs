@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-import * as core from 'dnd-core'
-import * as dnd from 'react-dnd'
-import * as htmlBackend from 'react-dnd-html5-backend'
+import * as core from '@bhunter179/dnd-core'
+import * as dnd from '@bhunter179/react-dnd'
+import * as htmlBackend from '@bhunter179/react-dnd-html5-backend'
 import * as testBackend from 'react-dnd-test-backend'
 import * as testUtils from 'react-dnd-test-utils'
 import * as touchBackend from 'react-dnd-touch-backend'

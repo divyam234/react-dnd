@@ -883,8 +883,8 @@
 ## 10.0.0 (2019-12-07)
 
 - Breaking Change: Use CommonJS by default (#1683) ([9efbb6b](https://github.com/react-dnd/react-dnd/commit/9efbb6b)), closes [#1683](https://github.com/react-dnd/react-dnd/issues/1683)
-- Replace asap with @react-dnd/asap (#1634) ([4719a6f](https://github.com/react-dnd/react-dnd/commit/4719a6f)), closes [#1634](https://github.com/react-dnd/react-dnd/issues/1634)
-- Replace invariant dependency with @react-dnd/invariant (#1632) ([03b3820](https://github.com/react-dnd/react-dnd/commit/03b3820)), closes [#1632](https://github.com/react-dnd/react-dnd/issues/1632)
+- Replace asap with @bhunter179/asap (#1634) ([4719a6f](https://github.com/react-dnd/react-dnd/commit/4719a6f)), closes [#1634](https://github.com/react-dnd/react-dnd/issues/1634)
+- Replace invariant dependency with @bhunter179/invariant (#1632) ([03b3820](https://github.com/react-dnd/react-dnd/commit/03b3820)), closes [#1632](https://github.com/react-dnd/react-dnd/issues/1632)
 - v10.0.0 ([6aa1fb1](https://github.com/react-dnd/react-dnd/commit/6aa1fb1))
 - docs(site): correct examples import ([8aacb15](https://github.com/react-dnd/react-dnd/commit/8aacb15))
 - build(deps-dev): bump @typescript-eslint/eslint-plugin from 2.9.0 to 2.10.0 ([9d8e5a1](https://github.com/react-dnd/react-dnd/commit/9d8e5a1))
@@ -929,7 +929,7 @@
 - build(deps): bump gatsby-transformer-sharp from 2.3.6 to 2.3.7 ([e17d801](https://github.com/react-dnd/react-dnd/commit/e17d801))
 - build(deps): bump react-scripts from 3.2.0 to 3.3.0 ([60521f0](https://github.com/react-dnd/react-dnd/commit/60521f0))
 - build(esm): remove SDI from touchBackend ([7e7915f](https://github.com/react-dnd/react-dnd/commit/7e7915f))
-- build(esm): replace shallowequal with @react-dnd/shallowequal (#1633) ([4c56d40](https://github.com/react-dnd/react-dnd/commit/4c56d40)), closes [#1633](https://github.com/react-dnd/react-dnd/issues/1633)
+- build(esm): replace shallowequal with @bhunter179/shallowequal (#1633) ([4c56d40](https://github.com/react-dnd/react-dnd/commit/4c56d40)), closes [#1633](https://github.com/react-dnd/react-dnd/issues/1633)
 - fix: patch TouchBackend to solve e.targetTouches bug in iOS 13 (#1631) ([f6286ca](https://github.com/react-dnd/react-dnd/commit/f6286ca)), closes [#1631](https://github.com/react-dnd/react-dnd/issues/1631)
 - fix(lint): correct linting issue ([03206f8](https://github.com/react-dnd/react-dnd/commit/03206f8))
 - chore: update changelog ([7edc76e](https://github.com/react-dnd/react-dnd/commit/7edc76e))
@@ -1717,7 +1717,7 @@
 
 - 1.1.7 ([898d3a5](https://github.com/react-dnd/react-dnd/commit/898d3a5))
 - Clarify the import in docs ([306ca72](https://github.com/react-dnd/react-dnd/commit/306ca72))
-- Enforce dnd-core@1.2.1 as it should help with #277 ([76e60f5](https://github.com/react-dnd/react-dnd/commit/76e60f5)), closes [#277](https://github.com/react-dnd/react-dnd/issues/277)
+- Enforce @bhunter179/dnd-core@1.2.1 as it should help with #277 ([76e60f5](https://github.com/react-dnd/react-dnd/commit/76e60f5)), closes [#277](https://github.com/react-dnd/react-dnd/issues/277)
 - Perform receiving new type in correct order. Fixes #277 ([687d2b8](https://github.com/react-dnd/react-dnd/commit/687d2b8)), closes [#277](https://github.com/react-dnd/react-dnd/issues/277)
 - Rebuild dist for Bower ([95cfd15](https://github.com/react-dnd/react-dnd/commit/95cfd15))
 - Typo fix. ([5ed8656](https://github.com/react-dnd/react-dnd/commit/5ed8656))

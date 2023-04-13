@@ -1,6 +1,6 @@
 {
-  "name": "react-dnd",
-  "version": "16.0.1",
+  "name": "@bhunter179/react-dnd",
+  "version": "16.0.3",
   "description": "Drag and Drop for React",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.mjs",
@@ -26,12 +26,12 @@
     "build": "npm-run-all -p _build_dts _build_esm _build_cjs -s _prepare_esm",
     "test": "jest --coverage",
     "check": "eslint src --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.cts,.mts --resolve-plugins-relative-to ../eslint-config",
-    "release": "yarn npm publish --tolerate-republish --access public"
+    "release": "npm publish --tolerate-republish --access public"
   },
   "dependencies": {
-    "@react-dnd/invariant": "workspace:^",
-    "@react-dnd/shallowequal": "workspace:^",
-    "dnd-core": "workspace:^",
+    "@bhunter179/dnd-core": "^16.0.3",
+    "@bhunter179/invariant": "^4.0.2",
+    "@bhunter179/shallowequal": "^4.0.2",
     "fast-deep-equal": "^3.1.3",
     "hoist-non-react-statics": "^3.3.2"
   },

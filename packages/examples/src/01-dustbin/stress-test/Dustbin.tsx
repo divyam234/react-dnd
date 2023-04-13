@@ -1,6 +1,6 @@
 import type { CSSProperties, FC } from 'react'
 import { memo } from 'react'
-import { useDrop } from 'react-dnd'
+import { useDrop } from '@bhunter179/react-dnd'
 
 const style: CSSProperties = {
 	height: '12rem',

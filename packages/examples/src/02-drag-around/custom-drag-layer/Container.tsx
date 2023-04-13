@@ -1,7 +1,7 @@
 import update from 'immutability-helper'
 import type { CSSProperties, FC } from 'react'
 import { useCallback, useState } from 'react'
-import { useDrop } from 'react-dnd'
+import { useDrop } from '@bhunter179/react-dnd'
 
 import { DraggableBox } from './DraggableBox.js'
 import type { DragItem } from './interfaces'
